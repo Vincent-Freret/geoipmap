@@ -1,5 +1,8 @@
 
 <?php
+
+*// please add MySQL access datas (connection functions)
+	
 $map=$_GET['map'];
 
 echo '
