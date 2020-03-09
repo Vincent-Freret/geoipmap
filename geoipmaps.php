@@ -1,5 +1,18 @@
 
 <?php
+
+*// please add MySQL access datas (connection functions)
+	$baseurl= $_SERVER['REQUEST_URI'];
+$baset=explode("/", $baseurl);
+$baseuri=$baset[1];
+$wwwbase=$baseuri;
+$host="localhost";
+$user="root";
+$password="";
+$database="geoip";
+// Create connection
+$conn = @new mysqli($servername, $user, $password, $database);
+	
 $map=$_GET['map'];
 
 echo '
