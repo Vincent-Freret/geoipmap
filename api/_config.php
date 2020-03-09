@@ -6,7 +6,7 @@ $wwwbase=$baseuri;
 $host="localhost";
 $user="root";
 $password="";
-$database="nolisa";
+$database="geoip";
 // Create connection
 $conn = @new mysqli($servername, $user, $password, $database);
 // Check connection
